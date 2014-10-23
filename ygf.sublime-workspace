@@ -1,0 +1,298 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"count",
+				"counter-1"
+			],
+			[
+				"p",
+				"prompt"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-clip"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"d",
+				"text-decoration"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7347,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/davidmandel1/Desktop/Project/testapp/.gitignore",
+		"/Users/davidmandel1/Dropbox/Coding Education/JQueryNewsReader/style.css",
+		"/Users/davidmandel1/Dropbox/Coding Education/JQueryNewsReader/index.html",
+		"/Users/davidmandel1/Dropbox/Coding Education/JQueryNewsReader/app.js",
+		"/Users/davidmandel1/Dropbox/Coding Education/JQueryToDo/script.js",
+		"/Users/davidmandel1/Dropbox/Coding Education/JQueryToDo/index.html",
+		"/Users/davidmandel1/Desktop/gist106c43e02e1f19b5e680-0c6dce5bd99baf8c49548b45e0f2f3d12111f239/index.html",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Sass Basics/3-nesting-selectors/start/main.css",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Sass Basics/test.css",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Sass Basics/test.scss",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/Javascript Foundations/index.html",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/Javascript Foundations/myscript.js",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/CSS Beginnings/advanced-backgrounds/start/style.css",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/CSS Beginnings/box-shadows/start/index.html",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/CSS Beginnings/box-shadows/start/style.css",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/CSS Beginnings/border-radius/start/index.html",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Treehouse/CSS Beginnings/border-radius/start/style.css",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Build Website in 1 Week/first-site/index.html",
+		"/Users/davidmandel1/DeskDrawer/Coding Education/Build Website in 1 Week/first-site/css/custom.css",
+		"/Users/davidmandel1/Desktop/Build Website in 1 Week/first-site/css/custom.css",
+		"/Users/davidmandel1/Desktop/Build Website in 1 Week/first-site/index.html",
+		"/Users/davidmandel1/Desktop/Build Website in 1 Week/first-site/css/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"’",
+			"creative",
+			"’",
+			"'",
+			"we'",
+			"we're",
+			"/>",
+			"input",
+			"type=\"text\"",
+			"text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"’"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7319,
+								7319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ygf.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
