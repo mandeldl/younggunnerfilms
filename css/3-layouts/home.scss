@@ -1,0 +1,17 @@
+.boxes {
+	@include clearfix;
+	@include outer-container;
+}
+
+.box {
+	@include size(100px);
+	background: red;
+	/*@include shift(2);*/
+	@include span-columns(2);
+}
+
+p {
+	font-family: $helvetica;
+	@include clearfix;
+	@include outer-container;
+}
