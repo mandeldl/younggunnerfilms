@@ -6,6 +6,13 @@
 	<link rel="stylesheet" href="style.css">
 	<!-- JavaScript -->
 	<script src="./js/jquery-1.11.1.min.js"></script>
+	<!-- FONTS -->
+	<!-- SANS SERIF -->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600italic,600,700,700italic,900,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+  	<!-- GEOMETRIC -->
+  	<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header class="centered-navigation">
@@ -15,14 +22,20 @@
 	    </a>
 	    <a href="" class="centered-navigation-menu-button">MENU</a>
 	    <ul class="centered-navigation-menu">
-	      <li class="nav-link more"><a href="javascript:void(0)">About Us</a>
+	      <li class="nav-link more"><a href="#about">About Us</a>
 	      	<ul class="submenu">
 	      		<li><a href="#noah">Noah Lang</a></li>
 	      		<li><a href="#david">David Mandel</a></li>
 		      	<li><a href="#james">James Morrison</a></li>
 		    </ul>
 	    </li>
-	      <li class="nav-link more"><a href="#current">Current Projects</a></li>
+	      <li class="nav-link more"><a href="#current">Current Projects</a>
+			<ul class="submenu">
+	      		<li><a href="#diverge">DIVERGE</a></li>
+	      		<li><a href="#journeyman">JOURNEYMAN</a></li>
+		      	<li><a href="#contaminate">CONTAMINATE</a></li>
+		    </ul>
+	      </li>
 	      <li class="nav-link logo">
 	        <a href="javascript:void(0)" class="logo">
 	          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="Logo image">
@@ -46,43 +59,81 @@
 	    </ul>
 	  </div>
 	</header>
-	<div class='About'>
-	<!-- Dogfish Photo? -->
-		<h2>About</h2>
-		<p>Young Gunner Films is a film development and production company founded by <a href="#noah">Noah Lang</a>, <a href="#david">David Mandel</a> and <a href="#james">James Morrison</a>.  We're taking a lean, balanced approach to filmmaking that adapts the best ideas and practices from the tech startup world.  We've seen (and worked for) many film companies that collapsed under old models of development, so we're going to build something new and sustainable.</p>
-		<p>We're storytellers first, and believe there are and always will be audiences for quality films.  Our ambition is to develop our audiences alongside our projects.  As producers, we are responsible to them as well as to our artists and our investors.</p>
-		<p>We currently have a slate of micro- to low-budget films.  First up is an ambitious feature drama with a heavy sci-fi element.  Think BLUE VALENTINE, but across parallel universes.  We're also working on a feature narrative set inside the world of underground boxing and a contained thriller set in a world coming to grips with an unknown contagion outbreak.</p>
-		<p>Thanks for stopping by, and do feel free to <a href="#CONTACT">drop us a line.</a></p>
+	<div class="side-image" id='about'>
+	  <div class="images-wrapper"></div>
+	  <div class="content">
+  	  	<h1>Welcome to Young Gunner Films</h1>
+		<p>Young Gunner Films is a film development and production company founded by <a href="#noah">Noah Lang</a>, <a href="#david">David Mandel</a> and <a href="#james">James Morrison</a>.  We're taking a lean, balanced approach to filmmaking that adapts the best ideas and practices from the tech startup world.  We've seen (and worked for) many film companies that collapsed under old models of development, so we're going to build something new and sustainable.
+		<br><br>We're storytellers first, and believe there are and always will be audiences for quality films.  Our ambition is to develop our audiences alongside our projects.  As producers, we are responsible to them as well as to our artists and our investors.<br><br>We currently have a slate of micro- to low-budget films.  First up is an ambitious feature drama with a heavy sci-fi element.  Think BLUE VALENTINE, but across parallel universes.  We're also working on a feature narrative set inside the world of underground boxing and a contained thriller set in a world coming to grips with an unknown contagion outbreak.<br><br>Thanks for stopping by, and do feel free to <a href="#contact">drop us a line.</a></p>
+		<button>Read more</button>
+	  </div>
 	</div>
-	<div class='personnel' id='noah'>
-		<h2>Noah Lang</h2>
-		<!-- Photo of Noah? -->
-		<p>Noah is a producer and writer based out of Brooklyn, NY. He recently worked in talent management, single picture finance, and advisory services at Cinetic Media. While at Cinetic, Noah closed the finance on Will Slocombe's COLD TURKEY (produced by David), worked with the finance team on John Turturro's FADING GIGOLO starring Woody Allen, as well as several other upcoming co-productions. As a consultant, he worked with companies such as Big Beach Films, and No Mystery Studios. He also facilitated the signing of several titles for FilmBuff including the iTunes hits OCCUPATION: FIGHTER, BEAUTY DAY and THE NAKED BRAND. Noah has a BA in Film and Media from Swarthmore College and has done additional coursework through the Victoria University of Wellington in New Zealand where he did a work study program with Peter Jackson's Weta Digital. He recently co-produced a modern adaptation of W.W. Jacobs' THE MONKEY'S PAW, and the motion capture animated short THE WHEATFIELD (Berkshire International Film Festival, Monadnock International Film Festival, Manhattan Film Festival) and is executive producing the documentaries 52: THE SEARCH FOR THE LONELIEST WHALE IN THE WORLD and HEAVEN ADORES YOU: AN ELLIOTT SMITH PROJECT (San Francisco International Film Festival, Canadian Music Week Film and Music Festival) as well as the upcoming SUN BELT EXPRESS which took the top prize at the US in Progress program in Wroclaw, Poland this fall, was a Cine Qua Non Writers Lab selection last year, and will premiere at the Champs Elysees Film Festival this June.</p>
-		<p>Noah's role is both creative and packaging oriented, with an eye towards helping attach talent above and below the line and continuing to build strong relationships with our vendors, financiers, and facilities.  More than anything else, Noah is driven to attracting audiences and talent alike in the pursuit of creating compelling content. He is currently writing a surrealist revenge thriller set in the unsanctioned barenuckle boxing scene of the American southwest and is wrapping up producing duties on DIVERGE with Young Gunner Films</p>
-	</div>
-	<div class='personnel' id='david'>
-		<h2>David Mandel</h2>
-		<!-- Photo of David -->
-		<p>David is a creative producer who has worked on shorts and features with budgets ranging from $1,000 to $12Million. He's seen it all, but is too modest to say so. While he loves the creative aspect and has been repeatedly told he gives the best script notes in the business, he isn't afraid to get his hands dirty - he has been a physical producer and/or worked day-to-day set operations on every project on his IMDB page. He and James met 5 years ago on the set of RAGE, where they decided to team up for some shorts (David producing, James directing). The results have toured the country on the festival circuit, and their respective independent filmmaking careers were born. David and Noah met a year ago while David was searching for financing for his latest feature, COLD TURKEY. Noah saved the project from oblivion, and David has sworn fealty to him ever since.</p>
-		<p>David's role will encompass both the creative - developing scripts and helping to package and market them; as well as the physical - line-producing, creating schedules and budgets for projects as well as helping to run the day-to-day operations/accounting of the business.</p>
+	<br>
+	<h1 class="section-heading">PERSONNEL</h1>
+	<article class="type-system-sans personnel" id='noah'>
+	  <p class="type">Producer, Writer</p>
+	  <h1>Noah Lang</h1>
+	  <p><span>Noah is a producer and writer</span> based out of Brooklyn, NY. He recently worked in talent management, single picture finance, and advisory services at Cinetic Media. While at Cinetic, Noah closed the finance on Will Slocombe's COLD TURKEY (produced by David), worked with the finance team on John Turturro's FADING GIGOLO starring Woody Allen, as well as several other upcoming co-productions. As a consultant, he worked with companies such as Big Beach Films, and No Mystery Studios. He also facilitated the signing of several titles for FilmBuff including the iTunes hits OCCUPATION: FIGHTER, BEAUTY DAY and THE NAKED BRAND. Noah has a BA in Film and Media from Swarthmore College and has done additional coursework through the Victoria University of Wellington in New Zealand where he did a work study program with Peter Jackson's Weta Digital. He recently co-produced a modern adaptation of W.W. Jacobs' THE MONKEY'S PAW, and the motion capture animated short THE WHEATFIELD (Berkshire International Film Festival, Monadnock International Film Festival, Manhattan Film Festival) and is executive producing the documentaries 52: THE SEARCH FOR THE LONELIEST WHALE IN THE WORLD and HEAVEN ADORES YOU: AN ELLIOTT SMITH PROJECT (San Francisco International Film Festival, Canadian Music Week Film and Music Festival) as well as the upcoming SUN BELT EXPRESS which took the top prize at the US in Progress program in Wroclaw, Poland this fall, was a Cine Qua Non Writers Lab selection last year, and will premiere at the Champs Elysees Film Festival this June.<br><br>Noah's role is both creative and packaging oriented, with an eye towards helping attach talent above and below the line and continuing to build strong relationships with our vendors, financiers, and facilities.  More than anything else, Noah is driven to attracting audiences and talent alike in the pursuit of creating compelling content. He is currently writing a surrealist revenge thriller set in the unsanctioned barenuckle boxing scene of the American southwest and is wrapping up producing duties on DIVERGE with Young Gunner Films</p>
+	  <hr>
+	</article>
+	<article class="type-system-sans personnel" id='david'>
+	  <p class="type">Producer, Writer</p>
+	  <h1>David Mandel</h1>
+	  <p><span>David is a creative producer</span> who has worked on shorts and features with budgets ranging from $1,000 to $12Million. He's seen it all, but is too modest to say so. While he loves the creative aspect and has been repeatedly told he gives the best script notes in the business, he isn't afraid to get his hands dirty - he has been a physical producer and/or worked day-to-day set operations on every project on his IMDB page. He and James met 5 years ago on the set of RAGE, where they decided to team up for some shorts (David producing, James directing). The results have toured the country on the festival circuit, and their respective independent filmmaking careers were born. David and Noah met a year ago while David was searching for financing for his latest feature, COLD TURKEY. Noah saved the project from oblivion, and David has sworn fealty to him ever since.<br><br>David's role will encompass both the creative - developing scripts and helping to package and market them; as well as the physical - line-producing, creating schedules and budgets for projects as well as helping to run the day-to-day operations/accounting of the business.</p>
 		<p>More than anything else, David is motivated by a strong desire to fix what's wrong in the film industry - not just for himself and his team, but for generations of filmmakers to come.</p>
-	</div>
-	<div class='personnel' id='james'>
-		<h2>James Morrison</h2>
-		<!-- Photo of James -->
-		<p>James is a writer, director and producer who grew up making movies with his family's video camera in Little Rock, Arkansas. Over the past 5 years he as worked on various aspects of production for both film and TV, working as producer's assistant on Cupid, Party Down, and White Collar. He currently works as an apprentice editor on George C. Wolfe's YOU'RE NOT YOU starring Hilary Swank, and recently completed apprentice editor work on James Gray's latest feature THE IMMIGRANT starring Marion Cotillard and Joaquin Phoenix. His short films STAY TRUE DARLING and LITTLE BROTHER have traveled to dozens of festivals in the US and Canada including Indie Memphis, NYC Picturestart, Manhattan, Little Rock, Stony Brook, and YoungCuts International. He is currently writing his feature debut, DIVERGE which Young Gunner is producing.</p>
-		<p>James's role will include creative - writing and directing some projects, as well as physical line producing and assisting on other projects in either a production or post-production capacity.</p>
-	</div>
-	<div class='current-work' id='diverge'>
-		<h2>Diverge</h2>
-		<!-- Poster? -->
-		<p>Feature Narrative, Sci-Fi/Drama/Thriller</p>
-		<p>A man whose life was destroyed by nuclear war wakes up in a parallel universe where his pregnant wife and everyone he loves are still alive. The only person standing between him and the life he wants is someone he cannot face: the man he used to be.</p>
-	</div>
-	<div class='current-work' id='diverge'>
-		<p>Feature Narrative, Sci-Fi/Drama/Thriller
-A man whose life was destroyed by nuclear war wakes up in a parallel universe where his pregnant wife and everyone he loves are still alive. The only person standing between him and the life he wants is someone he cannot face: the man he used to be.</p>
-	</div>
+	  <hr>
+	</article>
+	<article class="type-system-sans personnel" id='james'>
+	  <p class="type">Writer, Director, Producer</p>
+	  <h1>James Morrison</h1>
+	  <p><span>James is a writer, director and producer</span> who grew up making movies with his family's video camera in Little Rock, Arkansas. Over the past 5 years he as worked on various aspects of production for both film and TV, working as producer's assistant on Cupid, Party Down, and White Collar. He currently works as an apprentice editor on George C. Wolfe's YOU'RE NOT YOU starring Hilary Swank, and recently completed apprentice editor work on James Gray's latest feature THE IMMIGRANT starring Marion Cotillard and Joaquin Phoenix. His short films STAY TRUE DARLING and LITTLE BROTHER have traveled to dozens of festivals in the US and Canada including Indie Memphis, NYC Picturestart, Manhattan, Little Rock, Stony Brook, and YoungCuts International. He is currently writing his feature debut, DIVERGE which Young Gunner is producing.<br><br>James's role will include creative - writing and directing some projects, as well as physical line producing and assisting on other projects in either a production or post-production capacity.</p>
+	  <hr>
+	</article>
+	<h1 class="section-heading">CURRENT PROJECTS</h1>
+	<article class="type-system-geometric current-work" id='diverge'>
+	  <p class="type">Feature Narrative -- Sci-Fi/Drama/Thriller</p>
+	  <h1>DIVERGE</h1>
+    	<p class="date">Summer 2015</p>
+	  <h2>A man whose life was destroyed by a global cataclysm wakes up in a parallel universe where his wife and child are still alive. The only person standing between him and the life he wants is someone he cannot face: the man he used to be.</h2>
+	  <p><span>Chris Towne</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum</a> illo quam nulla dolor alias iure impedit! Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.</p>
+	  <hr>
+	  <p class="author">Written &amp; Directed by James Morrison</p>
+	</article>
+
+	
+	<!--<div class="wrapper-for-content-outside-of-footer">
+   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+</div>-->
+
+<footer class="footer-2">
+  <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+  </div>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#current">Current Projects</a></li>
+      <li><a href="#previous">Previous Work</a></li>
+    </ul>
+
+    <div class="footer-secondary-links">
+      <ul>
+        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+      </ul>
+
+      <ul class="footer-social">
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+          </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+        </a></li>
+        <li><a href="javascript:void(0)">
+          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+        </a></li>
+      </ul>
+    </div>
+</footer>
 </body>
 <script src="./js/app.js"></script>
 </html>
