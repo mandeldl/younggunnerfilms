@@ -15,3 +15,7 @@ p {
 	@include clearfix;
 	@include outer-container;
 }
+
+.video {
+	margin: 0 auto;
+}
