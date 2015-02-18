@@ -1,0 +1,29 @@
+.bottom-hero {
+	background-position: bottom;
+
+    .hero-copy {
+    	background-color: rgba(0,0,0,0.5);
+      
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: .5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        font-family: $serif;
+        margin: auto;
+        margin-bottom: 3em; 
+        font-weight: 200;
+        line-height: 1.4em;
+
+        @include media($large-screen) {
+          font-size: 1.1em;
+          max-width: 75%;
+        }
+      }
+    }
+  }

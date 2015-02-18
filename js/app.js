@@ -12,9 +12,8 @@ $(document).ready(function() {
     });
   });
 
-});
+// Accordion Tabs
 
-$(document).ready(function () {
   $('.accordion-tabs-minimal').each(function(index) {
     $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
   });
@@ -32,4 +31,9 @@ $(document).ready(function () {
       event.preventDefault();
     }
   });
+
+// FitVids - targetting .video-wrapper class, parent class of .video has max-width of 560px.
+
+  $('.video-wrapper').fitVids();
+  
 });

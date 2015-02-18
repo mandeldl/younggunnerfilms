@@ -1,0 +1,19 @@
+.video {
+  max-width: 560px;
+}
+
+// .video-wrapper {
+//   height: 0;
+//   overflow: hidden;
+//   padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+//   position: relative;
+//   max-width: 561px;
+//   max-height: 280px;
+
+//   embed,
+//   object,
+//   iframe {
+//     @include position(absolute, 0px null null 0px);
+//     @include size(100%);
+//   }
+// }

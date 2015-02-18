@@ -20,7 +20,7 @@ $side-image-border: 1px solid darken(transparentize($side-image-background-botto
 
     @include media($large-screen) {
       @include span-columns(4);
-      background-position: 42%;
+      background-position: 40%;
       background-size: cover;
       border-right: $side-image-border;
     }
