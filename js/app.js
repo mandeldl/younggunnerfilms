@@ -38,8 +38,8 @@ $(document).ready(function() {
     //Get the target tab link from the a href, store in clicktarget
     var targetTab = $(this).attr('href');
     var $targetTab = $(""+targetTab+"");
-    // Store accordion tabs ul in accordionTabs
-    var accordionTabs = $('accordion-tabs-minimal');
+
+    // Recycle the code from accordion tabs:
     if (!$targetTab.hasClass('is-active')) {
       event.preventDefault();
       var accordionTabs = $targetTab.closest('.accordion-tabs-minimal')
@@ -50,7 +50,10 @@ $(document).ready(function() {
     } else {
       event.preventDefault();
     }
-
+    // Scroll to the Previous section
+    $('html, body').animate({
+        scrollTop: $("#previous-work").offset().top
+    }, 'fast');
   });
 
 // FitVids - targetting .video-wrapper class, parent class of .video has max-width of 560px.
