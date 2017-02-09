@@ -10,7 +10,7 @@ $side-image-border: 1px solid darken(transparentize($side-image-background-botto
   }
 
   .images-wrapper {
-    @include background(url('http://www.younggunnerfilms.com/wp-content/uploads/2013/08/YGF-IndiePhoto1.jpeg'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
+    @include background(url('images/YGF-IndiePhoto1.jpeg'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
     background-color: $side-image-background-top;
     border-bottom: $side-image-border;
     background-size: cover;
